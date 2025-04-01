@@ -26,6 +26,6 @@ public class MulticastScript : MonoBehaviour
 
     void TurnRed()
     {
-        renderer.material.color = Color.red;
+        GetComponent<Renderer>().material.color = Color.red;
     }
 }
